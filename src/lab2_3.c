@@ -27,7 +27,7 @@ int main(void) {
   printf("Enter an integer n (>= 2): ");
   scanf("%d", &n);
 
-  // Validate input and print all primes up to n[cite: 3]
+  // Validate input and print all primes up to n
   if (n < 2) {
     printf("Error: n must be greater than or equal to 2.\n");
   } else {
@@ -42,4 +42,3 @@ int main(void) {
 
   return 0;
 }
-
