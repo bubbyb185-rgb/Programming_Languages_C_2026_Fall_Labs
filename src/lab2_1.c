@@ -27,7 +27,7 @@ int main(void) {
 
   // Validate input, call function, and print result
   if (n < 1) {
-    printf("Error: n must be a positive integer[cite: 1].\n");
+    printf("Error: n must be a positive integer.\n");
   } else {
     int result = sum_to_n(n);
     printf("The sum of numbers from 1 to %d is %d\n", n, result);

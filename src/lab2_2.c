@@ -27,7 +27,7 @@ int main(void) {
 
   // Validate input, call function, print result
   if (n < 0) {
-    printf("Error: n cannot be negative[cite: 2].\n");
+    printf("Error: n cannot be negative.\n");
   } else {
     long long result = factorial(n);
     printf("Factorial of %d is %lld\n", n, result);
